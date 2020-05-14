@@ -10,7 +10,7 @@ export type ContextType = {
 };
 
 export type Action =
-    | { type: 'INITIAL_DECETED'; payload: { state: string } }
+    | { type: 'INITIAL_DETECTED'; payload: { state: string } }
     | { type: 'INITIAL_NOT_DETECTED' }
     | { type: 'MONETIZATION_START'; payload: { state: string } }
     | { type: 'MONETIZATION_PENDING'; payload: { state: string } }
